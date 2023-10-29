@@ -9,11 +9,11 @@ close all; clearvars, clc
 
 w       = 100; % width to extend stimulus interval (see stimulus_detection function)
 fc_low  = 1.5; % low cutoff frequency (Hz)
-fc_high = 4;   % high cutoff frequency (Hz)
+fc_high = 25;  % high cutoff frequency (Hz)
 wdw_bef = 0.1; % window size before stimulus onset (s)
 wdw_aft = 0.7; % window size after stimulus onset (s)
 
-load('CardExperiment_300_Rep.mat') % Load file containing signals
+load('CardExperiment_23.mat') % Load file containing signals
 %  - fs       sampling frequency (250 Hz)
 %  - thrJ     threshold value for Joker card (4300000)
 %  - thrQ     threshold value for Queen card (3800000)
