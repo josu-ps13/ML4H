@@ -1,1 +1,1 @@
-Final project of Surgical Navigation & Imaging, of the Master in Machine Learning for Health, UC3M.
+**Final Project** of *Surgical Navigation and Imaging*, of the Master in Machine Learning for Health, UC3M.
